@@ -1,0 +1,27 @@
+{
+  "name": "create_wallets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "bs58": "^5.0.0",
+    "ecpair": "^2.0.1",
+    "ethers": "^6.13.2",
+    "inquirer": "^8.2.6",
+    "micro-ed25519-hdkey": "^0.1.2",
+    "tiny-secp256k1": "^2.2.3",
+    "winston": "^3.14.2"
+  }
+}
